@@ -1,0 +1,33 @@
+// // Swiper Class
+// import Swiper from './components/core/core-class';
+
+// //IMPORT_COMPONENTS
+
+// const components = [
+//   //INSTALL_COMPONENTS
+// ];
+
+// Swiper.use(components);
+
+//EXPORT
+var mySwiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
